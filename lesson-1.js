@@ -13,7 +13,7 @@
  *@return {number} FahrenheitDegrees (результат конвертации, температура в градусах по Фаренгейту).
  */
 let celsiusDegrees, fahrenheitDegrees;
-celsiusDegrees = +prompt('Введите температуру (целое число) в градусах Цельсия');
+celsiusDegrees = parseInt(prompt('Введите температуру (целое число) в градусах Цельсия'));
 if (isNaN(celsiusDegrees)) {
     alert("Введенный текст не является числом.");
 } else {
